@@ -2,13 +2,13 @@ import smartsheet
 from smartsheet.models import CellLink, Cell, Row
 
 API_TOKEN = 'XhRRIgrs2G0Z8mz7Pz7EyJ4AfqsWhehSxxVZX'  # 🔐 Coloca tu token
-SOURCE_SHEET_ID = 4787504498560900
+SOURCE_SHEET_ID = 8911386563268484
 TARGET_SHEET_ID = 6381413683122052
 
 SOURCE_START_ROW = 170  # índice base 0, así que fila 171 es index 170
 SOURCE_END_ROW = 187    # inclusive
 
-TARGET_ROW_NUMBER = 32  # fila destino en el target sheet
+TARGET_ROW_NUMBER = 141  # fila destino en el target sheet
 
 # Orden de las columnas destino
 target_column_names = [
